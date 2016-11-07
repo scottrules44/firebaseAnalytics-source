@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32077CB1DCD8456004311A0 /* GoogleInterchangeUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = B32077C51DCD8456004311A0 /* GoogleInterchangeUtilities */; };
+		B32077CC1DCD8456004311A0 /* GoogleSymbolUtilities in Frameworks */ = {isa = PBXBuildFile; fileRef = B32077C61DCD8456004311A0 /* GoogleSymbolUtilities */; };
+		B32077CE1DCD8456004311A0 /* firebaseAnalytics.mm in Sources */ = {isa = PBXBuildFile; fileRef = B32077C91DCD8456004311A0 /* firebaseAnalytics.mm */; };
+		B32077D31DCD8467004311A0 /* FirebaseInstanceID in Frameworks */ = {isa = PBXBuildFile; fileRef = B32077D01DCD8467004311A0 /* FirebaseInstanceID */; };
+		B32077ED1DCD8507004311A0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; fileRef = B32077E71DCD8507004311A0 /* FirebaseAnalytics */; };
+		B32077F41DCD850E004311A0 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; fileRef = B32077F11DCD850E004311A0 /* FirebaseCore */; };
+		B32078071DCDA14A004311A0 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B32078061DCDA14A004311A0 /* libz.1.dylib */; };
+		B32078091DCDA166004311A0 /* GoogleToolboxForMac in Frameworks */ = {isa = PBXBuildFile; fileRef = B32078081DCDA166004311A0 /* GoogleToolboxForMac */; };
+		B320780B1DCDA23C004311A0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B320780A1DCDA23C004311A0 /* libsqlite3.dylib */; };
+		B320780D1DCDA246004311A0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B320780C1DCDA246004311A0 /* AdSupport.framework */; };
+		B3B43C691DB066DF001F1504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B43C681DB066DF001F1504 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E253B4166D6FB300DCDC2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4E253B6166D6FB300DCDC2C /* libplugin_voiceToText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin_voiceToText.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3186AC21DA5DFC000C3FE11 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B32077C51DCD8456004311A0 /* GoogleInterchangeUtilities */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = GoogleInterchangeUtilities; path = Plugin/GoogleInterchangeUtilities; sourceTree = "<group>"; };
+		B32077C61DCD8456004311A0 /* GoogleSymbolUtilities */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = GoogleSymbolUtilities; path = Plugin/GoogleSymbolUtilities; sourceTree = "<group>"; };
+		B32077C81DCD8456004311A0 /* firebaseAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firebaseAnalytics.h; path = Plugin/firebaseAnalytics.h; sourceTree = "<group>"; };
+		B32077C91DCD8456004311A0 /* firebaseAnalytics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = firebaseAnalytics.mm; path = Plugin/firebaseAnalytics.mm; sourceTree = "<group>"; };
+		B32077D01DCD8467004311A0 /* FirebaseInstanceID */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FirebaseInstanceID; path = Plugin/ID/FirebaseInstanceID; sourceTree = "<group>"; };
+		B32077D11DCD8467004311A0 /* FirebaseInstanceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseInstanceID.h; path = Plugin/ID/FirebaseInstanceID.h; sourceTree = "<group>"; };
+		B32077D21DCD8467004311A0 /* FIRInstanceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Plugin/ID/FIRInstanceID.h; sourceTree = "<group>"; };
+		B32077E21DCD8507004311A0 /* FIRAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRAnalytics.h; path = Plugin/Analytics/FIRAnalytics.h; sourceTree = "<group>"; };
+		B32077E31DCD8507004311A0 /* FIRAnalytics+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FIRAnalytics+AppDelegate.h"; path = "Plugin/Analytics/FIRAnalytics+AppDelegate.h"; sourceTree = "<group>"; };
+		B32077E41DCD8507004311A0 /* FIRAnalyticsConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRAnalyticsConfiguration.h; path = Plugin/Analytics/FIRAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		B32077E51DCD8507004311A0 /* FIRApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = Plugin/Analytics/FIRApp.h; sourceTree = "<group>"; };
+		B32077E61DCD8507004311A0 /* FIRConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = Plugin/Analytics/FIRConfiguration.h; sourceTree = "<group>"; };
+		B32077E71DCD8507004311A0 /* FirebaseAnalytics */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FirebaseAnalytics; path = Plugin/Analytics/FirebaseAnalytics; sourceTree = "<group>"; };
+		B32077E81DCD8507004311A0 /* FirebaseAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseAnalytics.h; path = Plugin/Analytics/FirebaseAnalytics.h; sourceTree = "<group>"; };
+		B32077E91DCD8507004311A0 /* FIREventNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIREventNames.h; path = Plugin/Analytics/FIREventNames.h; sourceTree = "<group>"; };
+		B32077EA1DCD8507004311A0 /* FIROptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = Plugin/Analytics/FIROptions.h; sourceTree = "<group>"; };
+		B32077EB1DCD8507004311A0 /* FIRParameterNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRParameterNames.h; path = Plugin/Analytics/FIRParameterNames.h; sourceTree = "<group>"; };
+		B32077EC1DCD8507004311A0 /* FIRUserPropertyNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRUserPropertyNames.h; path = Plugin/Analytics/FIRUserPropertyNames.h; sourceTree = "<group>"; };
+		B32077EE1DCD850E004311A0 /* FIRAnalyticsConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRAnalyticsConfiguration.h; path = Plugin/Core/FIRAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		B32077EF1DCD850E004311A0 /* FIRApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = Plugin/Core/FIRApp.h; sourceTree = "<group>"; };
+		B32077F01DCD850E004311A0 /* FIRConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = Plugin/Core/FIRConfiguration.h; sourceTree = "<group>"; };
+		B32077F11DCD850E004311A0 /* FirebaseCore */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FirebaseCore; path = Plugin/Core/FirebaseCore; sourceTree = "<group>"; };
+		B32077F21DCD850E004311A0 /* FirebaseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseCore.h; path = Plugin/Core/FirebaseCore.h; sourceTree = "<group>"; };
+		B32077F31DCD850E004311A0 /* FIROptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = Plugin/Core/FIROptions.h; sourceTree = "<group>"; };
+		B32077FF1DCD9CA5004311A0 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Plugin/Firebase.h; sourceTree = "<group>"; };
+		B32078061DCDA14A004311A0 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		B32078081DCDA166004311A0 /* GoogleToolboxForMac */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = GoogleToolboxForMac; path = Plugin/GoogleToolboxForMac; sourceTree = "<group>"; };
+		B320780A1DCDA23C004311A0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		B320780C1DCDA246004311A0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B320780E1DCDA400004311A0 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		B3B43C631DAFD610001F1504 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		B3B43C681DB066DF001F1504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E253B3166D6FB300DCDC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B320780D1DCDA246004311A0 /* AdSupport.framework in Frameworks */,
+				B320780B1DCDA23C004311A0 /* libsqlite3.dylib in Frameworks */,
+				B32078071DCDA14A004311A0 /* libz.1.dylib in Frameworks */,
+				B32077ED1DCD8507004311A0 /* FirebaseAnalytics in Frameworks */,
+				B32077CC1DCD8456004311A0 /* GoogleSymbolUtilities in Frameworks */,
+				B32077CB1DCD8456004311A0 /* GoogleInterchangeUtilities in Frameworks */,
+				B3B43C691DB066DF001F1504 /* Foundation.framework in Frameworks */,
+				B32077D31DCD8467004311A0 /* FirebaseInstanceID in Frameworks */,
+				B32077F41DCD850E004311A0 /* FirebaseCore in Frameworks */,
+				B32078091DCDA166004311A0 /* GoogleToolboxForMac in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A447B609165D72A6009EA762 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B32078081DCDA166004311A0 /* GoogleToolboxForMac */,
+				B32077FF1DCD9CA5004311A0 /* Firebase.h */,
+				B32077C91DCD8456004311A0 /* firebaseAnalytics.mm */,
+				B32077C81DCD8456004311A0 /* firebaseAnalytics.h */,
+				B32077C61DCD8456004311A0 /* GoogleSymbolUtilities */,
+				B32077C51DCD8456004311A0 /* GoogleInterchangeUtilities */,
+				B32077E11DCD84D5004311A0 /* Core */,
+				B32077D41DCD846B004311A0 /* Analytics */,
+				B32077CF1DCD845E004311A0 /* ID */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A484110E15114F700074BD57 = {
+			isa = PBXGroup;
+			children = (
+				A447B609165D72A6009EA762 /* Source */,
+				A484111A15114F700074BD57 /* Products */,
+				B31869F91DA56AE000C3FE11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A484111A15114F700074BD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E253B6166D6FB300DCDC2C /* libplugin_voiceToText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31869F91DA56AE000C3FE11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B320780E1DCDA400004311A0 /* libc++.1.dylib */,
+				B320780C1DCDA246004311A0 /* AdSupport.framework */,
+				B320780A1DCDA23C004311A0 /* libsqlite3.dylib */,
+				B32078061DCDA14A004311A0 /* libz.1.dylib */,
+				B3B43C681DB066DF001F1504 /* Foundation.framework */,
+				B3B43C631DAFD610001F1504 /* Speech.framework */,
+				B3186AC21DA5DFC000C3FE11 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32077CF1DCD845E004311A0 /* ID */ = {
+			isa = PBXGroup;
+			children = (
+				B32077D01DCD8467004311A0 /* FirebaseInstanceID */,
+				B32077D11DCD8467004311A0 /* FirebaseInstanceID.h */,
+				B32077D21DCD8467004311A0 /* FIRInstanceID.h */,
+			);
+			name = ID;
+			sourceTree = "<group>";
+		};
+		B32077D41DCD846B004311A0 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				B32077E21DCD8507004311A0 /* FIRAnalytics.h */,
+				B32077E31DCD8507004311A0 /* FIRAnalytics+AppDelegate.h */,
+				B32077E41DCD8507004311A0 /* FIRAnalyticsConfiguration.h */,
+				B32077E51DCD8507004311A0 /* FIRApp.h */,
+				B32077E61DCD8507004311A0 /* FIRConfiguration.h */,
+				B32077E71DCD8507004311A0 /* FirebaseAnalytics */,
+				B32077E81DCD8507004311A0 /* FirebaseAnalytics.h */,
+				B32077E91DCD8507004311A0 /* FIREventNames.h */,
+				B32077EA1DCD8507004311A0 /* FIROptions.h */,
+				B32077EB1DCD8507004311A0 /* FIRParameterNames.h */,
+				B32077EC1DCD8507004311A0 /* FIRUserPropertyNames.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		B32077E11DCD84D5004311A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B32077EE1DCD850E004311A0 /* FIRAnalyticsConfiguration.h */,
+				B32077EF1DCD850E004311A0 /* FIRApp.h */,
+				B32077F01DCD850E004311A0 /* FIRConfiguration.h */,
+				B32077F11DCD850E004311A0 /* FirebaseCore */,
+				B32077F21DCD850E004311A0 /* FirebaseCore.h */,
+				B32077F31DCD850E004311A0 /* FIROptions.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E253B5166D6FB300DCDC2C /* plugin_voiceToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_voiceToText" */;
+			buildPhases = (
+				A4E253B2166D6FB300DCDC2C /* Sources */,
+				A4E253B3166D6FB300DCDC2C /* Frameworks */,
+				A4E253B4166D6FB300DCDC2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plugin_voiceToText;
+			productName = plugin_library;
+			productReference = A4E253B6166D6FB300DCDC2C /* libplugin_voiceToText.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A484111015114F700074BD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A484110E15114F700074BD57;
+			productRefGroup = A484111A15114F700074BD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E253B5166D6FB300DCDC2C /* plugin_voiceToText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E253B2166D6FB300DCDC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32077CE1DCD8456004311A0 /* firebaseAnalytics.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A484114015114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = .;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = .;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+					"-lz",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+			};
+			name = Debug;
+		};
+		A484114115114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = .;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = .;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = .;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+					"-lz",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E253C0166D6FB300DCDC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin",
+					.,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Plugin",
+					"$(PROJECT_DIR)/Plugin/ID",
+					"$(PROJECT_DIR)/Plugin/Analytics",
+					"$(PROJECT_DIR)/Plugin/Core",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona .";
+				VALID_ARCHS = "arm64 armv7 armv7s $(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		A4E253C1166D6FB300DCDC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin",
+					.,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					.,
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Plugin",
+					"$(PROJECT_DIR)/Plugin/ID",
+					"$(PROJECT_DIR)/Plugin/Analytics",
+					"$(PROJECT_DIR)/Plugin/Core",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona .";
+				VALID_ARCHS = "arm64 armv7 armv7s $(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114015114F700074BD57 /* Debug */,
+				A484114115114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_voiceToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E253C0166D6FB300DCDC2C /* Debug */,
+				A4E253C1166D6FB300DCDC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A484111015114F700074BD57 /* Project object */;
+}
